@@ -8,9 +8,9 @@ public class ToDo {
     private boolean completado;
 
     public ToDo() {
-        this.nombre = "";
-        this.descripcion = "";
-        this.dueDate = new Date();
+        this.nombre = null;
+        this.descripcion = null;
+        this.dueDate = null;
         this.completado = false;
     }
     public ToDo(String nombre, String descripcion, Date dueDate, boolean completado) {
@@ -42,13 +42,5 @@ public class ToDo {
     }
     public void setCompletado(boolean completado) {
         this.completado = completado;
-    }
-    public String toString() {
-        return "ToDo{" +
-            "nombre='" + nombre + '\'' +
-            ", descripcion='" + descripcion + '\'' +
-            ", fechaLimite=" + dueDate.toString()+
-            ", completado=" + completado +
-            '}';
     }
 }
