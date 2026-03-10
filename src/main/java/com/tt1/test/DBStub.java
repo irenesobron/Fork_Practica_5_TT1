@@ -77,7 +77,7 @@ public class DBStub {
     /**
      * Obtener la lista de emails.
      *
-     * @return List<String> Devuelve una lista con todas las direcciones de correo electronico
+     * @return lista con todas las direcciones de correo electronico
      */
     public List<String> obtenerEmails() {
         throw new UnsupportedOperationException("Clase aun no implementada.");
