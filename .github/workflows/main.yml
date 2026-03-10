@@ -19,4 +19,4 @@ jobs:
           java-version: 21
           target-folder: javadoc
           project: maven
-          custom-command: "javadoc -d javadoc-output -sourcepath src/main/java -subpackages com.tt1.test
+          custom-command: "javadoc -d javadoc-output -sourcepath src/main/java -subpackages com.tt1.test"
